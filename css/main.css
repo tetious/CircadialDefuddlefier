@@ -1,0 +1,40 @@
+.daylight {
+  color: black;
+  background-color: palegoldenrod;
+  border: 0;
+}
+
+.collapsing {
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.fc-day-grid-event.sleeping {
+  background: #696969;
+  border-color: grey;
+}
+
+.fc-time-grid-event.sleeping {
+  background: #696969 linear-gradient(#2d2d2d, black);
+  border-color: grey;
+}
+
+.fc-day-grid-event .fc-time {
+  font-size: 10pt;
+  text-align: center;
+}
+
+.fc-time-grid-event .fc-time {
+  background-color: grey;
+  font-size: 10pt;
+  text-align: center;
+}
+
+.timepicker {
+  background-color: white !important;
+  cursor: pointer !important;
+}
+
+.fc-unthemed .fc-today {
+  background: transparent;
+}

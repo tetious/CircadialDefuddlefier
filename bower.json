@@ -1,0 +1,21 @@
+{
+  "name": "CircadialDefuddle",
+  "version": "0.0.0",
+  "authors": [
+    "Greg Lincoln <greg@greglincoln.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-datepicker": "~1.6.0",
+    "fullcalendar": "~2.6.0",
+    "moment": "~2.11.1"
+  }
+}
